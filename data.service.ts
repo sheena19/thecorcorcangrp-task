@@ -1,0 +1,1 @@
+const dataUrl: "data.json";
