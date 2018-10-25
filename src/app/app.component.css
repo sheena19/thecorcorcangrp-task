@@ -1,0 +1,16 @@
+.price{
+  float: right;
+}
+
+.address{
+  float: left;
+}
+
+.transaction{
+  text-align: left;
+}
+
+.openhouse{
+  text-align: center;
+}
+
