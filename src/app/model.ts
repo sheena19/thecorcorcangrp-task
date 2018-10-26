@@ -26,3 +26,13 @@ export interface Item {
   Listing: Listing;
   Property: Property;
 }
+
+export interface DataModel {
+  isSelected: boolean,
+  id: string,
+  address: string,
+  city: string,
+  transaction: string,
+  price: string,
+  openhouses: string
+}

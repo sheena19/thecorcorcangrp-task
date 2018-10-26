@@ -1,0 +1,24 @@
+<mat-card *ngFor="let item of data" id={{item.id}} [ngClass]="{'highlight': item.isSelected}">
+
+  <div>
+    <p class="address">{{item.address}}</p>
+    <p class="price" *ngIf="item.transaction ==  'Sale'">
+      $ {{item.price}}
+    </p>
+    <p class="price" *ngIf="item.transaction ==  'Rent'">
+      $ {{item.price}} per month
+    </p>
+
+  </div>
+
+  <div style="clear: both;"></div>
+
+  <div class="transaction">
+    {{item.transaction}}
+
+  </div>
+  <div class="openhouse">
+    {{item.openhouses}}
+  </div>
+
+</mat-card>

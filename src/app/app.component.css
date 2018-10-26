@@ -1,3 +1,8 @@
+mat-card{
+  width: 400px;
+  margin: 5px auto;
+}
+
 .price{
   float: right;
 }
@@ -10,7 +15,21 @@
   text-align: left;
 }
 
+.highlight{
+  background-color: blanchedalmond;
+}
+
 .openhouse{
   text-align: center;
 }
+#map {
+  margin: 5px auto;
+  height: 400px;
+  width: 400px;
+}
 
+agm-map{
+  position: center;
+  height: 400px;
+  width: 400px;
+}
