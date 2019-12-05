@@ -2,7 +2,7 @@ import {Component, NgZone, OnInit, SimpleChanges, ViewChild} from '@angular/core
 import {DataService} from './data.service';
 import {AgmMap, GoogleMapsAPIWrapper, MapsAPILoader} from '@agm/core';
 import {Subscription} from 'rxjs';
-import {DataModel, Item} from './model';
+import {DataModel} from './model';
 
 declare var google: any;
 
